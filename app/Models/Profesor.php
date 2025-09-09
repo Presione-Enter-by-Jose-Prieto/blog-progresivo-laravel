@@ -21,6 +21,7 @@ class Profesor extends Authenticatable
     protected $fillable = [
         'nombre',
         'apellido',
+        'foto',
         'email',
         'telefono',
         'direccion',
